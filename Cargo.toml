@@ -1,0 +1,11 @@
+[package]
+name = "js_to_ts_compiler"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ishika <ishikabhatia01@gmail.com>"]
+description = "A Rust-based source-to-source compiler that converts JavaScript to TypeScript."
+license = "MIT"
+repository = "https://github.com/ishikabhatia01/js_to_ts_compiler"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }

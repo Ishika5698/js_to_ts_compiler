@@ -1,0 +1,15 @@
+# Ignore build artifacts
+/target/
+
+# Ignore Cargo.lock for libraries (optional, but recommended for applications)
+# Cargo.lock
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore output files (if any)
+output.ts
